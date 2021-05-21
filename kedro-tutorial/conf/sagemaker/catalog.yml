@@ -1,0 +1,11 @@
+X_train@pickle:
+  type: pickle.PickleDataSet
+  filepath: ${s3.train_path}/X_train.pickle
+
+X_train@path:
+  type: MemoryDataSet
+  data: ${s3.train_path}/X_train.pickle
+
+y_train:
+  type: pickle.PickleDataSet
+  filepath: ${s3.train_path}/y_train.pickle

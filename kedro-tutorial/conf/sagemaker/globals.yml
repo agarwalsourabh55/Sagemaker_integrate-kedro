@@ -1,0 +1,3 @@
+s3:
+  train_path: s3://sourabhsagemaker/train
+  output_path: s3://sourabhsagemaker/output
